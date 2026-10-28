@@ -80,3 +80,13 @@ FROM employees AS e
 INNER JOIN jobs AS j ON e.job_id = j.job_id
 INNER JOIN departments AS d ON j.department_id = d.department_id
 INNER JOIN locations AS l ON e.location_id = l.location_id;
+
+CREATE OR REPLACE VIEW reporting_months AS
+SELECT
+    CAST(month_start AS DATE) AS month_start,
+    LAST_DAY(CAST(month_start AS DATE)) AS month_end
+FROM generate_series(
+    (SELECT DATE_TRUNC('month', MIN(hire_date)) FROM employees),
+    DATE_TRUNC('month', as_of_date()),
+    INTERVAL 1 MONTH
+) AS months (month_start);
