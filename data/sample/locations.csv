@@ -1,0 +1,7 @@
+location_id,location_name,country,region
+1,Austin,United States,North America
+2,New York,United States,North America
+3,Toronto,Canada,North America
+4,London,United Kingdom,Europe
+5,Berlin,Germany,Europe
+6,Remote,United States,Remote
