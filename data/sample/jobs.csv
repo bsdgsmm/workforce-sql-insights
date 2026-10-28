@@ -1,0 +1,34 @@
+job_id,job_title,department_id,job_level,salary_band_min,salary_band_max
+101,Software Engineer I,1,1,70000,95000
+102,Software Engineer II,1,2,90000,120000
+103,Senior Software Engineer,1,3,115000,155000
+104,QA Engineer,1,2,65000,90000
+105,Engineering Manager,1,4,145000,185000
+201,Sales Development Representative,2,1,45000,60000
+202,Account Executive,2,2,60000,90000
+203,Senior Account Executive,2,3,85000,120000
+204,Sales Manager,2,4,110000,150000
+301,Support Specialist,3,1,38000,50000
+302,Senior Support Specialist,3,2,48000,62000
+303,Support Team Lead,3,3,60000,78000
+304,Support Manager,3,4,75000,100000
+401,Marketing Coordinator,4,1,45000,60000
+402,Marketing Specialist,4,2,58000,78000
+403,Content Strategist,4,2,55000,75000
+404,Senior Marketing Manager,4,4,100000,135000
+501,Accountant,5,2,58000,78000
+502,Financial Analyst,5,2,65000,85000
+503,Senior Financial Analyst,5,3,80000,105000
+504,Finance Manager,5,4,110000,145000
+601,HR Coordinator,6,1,45000,58000
+602,Recruiter,6,2,55000,75000
+603,HR Business Partner,6,3,75000,100000
+604,HR Manager,6,4,95000,125000
+701,Operations Associate,7,1,40000,55000
+702,Logistics Coordinator,7,2,48000,65000
+703,Operations Analyst,7,2,55000,75000
+704,Operations Manager,7,4,90000,120000
+801,Product Analyst,8,2,70000,92000
+802,UX Designer,8,2,75000,100000
+803,Product Manager,8,3,105000,140000
+804,Senior Product Manager,8,4,130000,170000
